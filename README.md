@@ -8,3 +8,5 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 ## Introduction
 
 <img style="border: 1px solid grey" src="images/1.png" alt="image segmentation vs semantic segmentation" width="500" height="300"/>
+
+<img style="border: 1px solid grey" src="images/2.png" alt="image segmentation using depth" width="500" height="300"/>
