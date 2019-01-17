@@ -34,7 +34,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### List of labels to work with
 
-<img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="550" height="500"/> 
+<img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="500" height="500"/> 
 <br />
 <br />
 
@@ -66,7 +66,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### RGB-D vs RGB segmentation
 
-<img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="550" height="600"/>
+<img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="500" height="600"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/13.png" alt="image segmentation vs semantic segmentation" width="900" height="600"/>
