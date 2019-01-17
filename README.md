@@ -16,3 +16,11 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 <img style="border: 1px solid grey" src="images/3.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+## Goals
+
+1.  Achieve quality segmentation using RGB-D
+2.  Comparison study of RGB-D to RGB segmentation
+3.  Explore alternative approach to feed depth
+4.  Compare our model to state-of-the-art
