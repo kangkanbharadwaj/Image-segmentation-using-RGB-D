@@ -47,8 +47,8 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/6.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
 <br />
 
-<img style="border: 1px solid grey" src="images/7.png" alt="image segmentation vs semantic segmentation" width="800" height="500"/>
-<img style="border: 1px solid grey" src="images/8.png" alt="image segmentation vs semantic segmentation" width="800" height="500"/>
+<img style="border: 1px solid grey" src="images/7.png" alt="image segmentation vs semantic segmentation" width="900" height="500"/>
+<img style="border: 1px solid grey" src="images/8.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/9.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
@@ -61,10 +61,10 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
 
-<img style="border: 1px solid grey" src="images/13.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
-<img style="border: 1px solid grey" src="images/14.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
-<img style="border: 1px solid grey" src="images/15.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
-<img style="border: 1px solid grey" src="images/16.png" alt="image segmentation vs semantic segmentation" width="700" height="300"/>
+<img style="border: 1px solid grey" src="images/13.png" alt="image segmentation vs semantic segmentation" width="900" height="600"/>
+<img style="border: 1px solid grey" src="images/14.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<img style="border: 1px solid grey" src="images/15.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<img style="border: 1px solid grey" src="images/16.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
 <br />
 <br />
 
@@ -77,14 +77,23 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/17.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
 
-<img style="border: 1px solid grey" src="images/18.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
-<img style="border: 1px solid grey" src="images/19.png" alt="image segmentation vs semantic segmentation" width="700" height="300"/>
-<img style="border: 1px solid grey" src="images/20.png" alt="image segmentation vs semantic segmentation" width="700" height="300"/>
+<img style="border: 1px solid grey" src="images/18.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<img style="border: 1px solid grey" src="images/19.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
+<img style="border: 1px solid grey" src="images/20.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
 <br />
 
 
 <img style="border: 1px solid grey" src="images/21.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
 
-<img style="border: 1px solid grey" src="images/22.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
+<img style="border: 1px solid grey" src="images/22.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/23.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/24.png" alt="image segmentation vs semantic segmentation" width="900" height="500"/>
+<img style="border: 1px solid grey" src="images/25.png" alt="image segmentation vs semantic segmentation" width="900" height="500"/>
+<img style="border: 1px solid grey" src="images/26.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
+<img style="border: 1px solid grey" src="images/27.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
 <br />
