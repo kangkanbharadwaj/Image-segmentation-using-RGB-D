@@ -1,0 +1,62 @@
+import glob
+import sys
+import re
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+sys.path.append('/root/src/caffe/python')
+import caffe
+
+def stringSplitByNumbers(x):
+    r = re.compile('(\d+)')
+    l = r.split(x)
+    return [int(y) if y.isdigit() else y for y in l]
+
+def vis_square(data):
+    """Take an array of shape (n, height, width) or (n, height, width, 3)
+       and visualize each (height, width) thing in a grid of size approx. sqrt(n) by sqrt(n)"""
+    
+    # normalize data for display
+    data = (data - data.min()) / (data.max() - data.min())
+    
+    # force the number of filters to be square
+    n = int(np.ceil(np.sqrt(data.shape[0])))
+    padding = (((0, n ** 2 - data.shape[0]),
+               (0, 1), (0, 1))                 # add some space between filters
+               + ((0, 0),) * (data.ndim - 3))  # don't pad the last dimension (if there is one)
+    data = np.pad(data, padding, mode='constant', constant_values=1)  # pad with ones (white)
+    
+    # tile the filters into an image
+    data = data.reshape((n, n) + data.shape[1:]).transpose((0, 2, 1, 3) + tuple(range(4, data.ndim + 1)))
+    data = data.reshape((n * data.shape[1], n * data.shape[3]) + data.shape[4:])
+    
+    #plt.imshow(data); plt.axis('off')
+
+
+caffe.set_mode_gpu()
+iteration = 595000
+
+imgDir = glob.glob("/home/bharadwaj/ImageSegmentation/data/streetObjects2Data/image/*.jpg")
+net = caffe.Net('/home/bharadwaj/ImageSegmentation/data/streetObjects2Data/fuseResNet34_org.prototxt', '/home/bharadwaj/ImageSegmentation/data/streetObjects2Data/model_2_test/snapshot_iter_' + str(iteration) + '.caffemodel', caffe.TEST)
+
+for images in sorted(imgDir, key=stringSplitByNumbers):
+    
+    img = cv2.imread (images)    
+    imageName = images.split('/')[7].split('.')[0]
+    depth = cv2.imread("/home/bharadwaj/ImageSegmentation/data/streetObjects2Data/image/%s.exr" %(imageName), cv2.IMREAD_ANYDEPTH | cv2.IMREAD_ANYCOLOR)    
+    norm_image = cv2.normalize(img, None, alpha=0, beta=1, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_32F)     
+    in_image = norm_image.transpose((2,0,1))    
+    in_image = np.expand_dims(in_image, axis=0)
+    in_depth = np.expand_dims(depth, axis=0)
+    in_depth = np.expand_dims(in_depth, axis=0)
+    net.blobs['rgb'].data[...] = in_image
+    net.blobs['depth'].data[...] = in_depth
+    net.forward()         
+    net_out = net.blobs['score'].data       
+    out_im = np.swapaxes(net_out, 1,3)  
+    out_im = np.swapaxes(out_im, 1,2)  
+    out_im = np.squeeze(out_im, axis=0) 
+    out_im = out_im.argmax(axis=2)         
+    img = np.uint8(out_im)        
+    cv2.imwrite("/home/bharadwaj/ImageSegmentation/data/streetObjects2Data/segmentResults/masks/%s.png" %(imageName), img) 

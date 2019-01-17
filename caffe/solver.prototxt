@@ -1,0 +1,15 @@
+net: 'resnet34.prototxt'
+base_lr:       0.0001
+momentum:      0.9
+momentum2:     0.999
+lr_policy:     "fixed"
+gamma:         0.1
+max_iter:      2000000
+weight_decay:  0.0005
+stepsize:      20000
+display:       1
+snapshot:      5000
+snapshot_prefix: 'snapshots/snapshot'
+type:          "Adam"
+solver_mode:   GPU
+debug_info:    0
