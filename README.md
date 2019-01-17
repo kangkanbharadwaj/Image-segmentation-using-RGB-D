@@ -7,4 +7,4 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ## Introduction
 
-<img style="border: 1px solid grey" src="http://kangkanbharadwaj/Image-segmentation-using-RGB-D/tree/master/images/1.png" alt="Flipped Image" width="300" height="250"/>
+<img style="border: 1px solid grey" src="http://kangkanbharadwaj/Image-segmentation-using-RGB-D/images/1.png" alt="image segmentation vs semantic segmentation" width="300" height="250"/>
