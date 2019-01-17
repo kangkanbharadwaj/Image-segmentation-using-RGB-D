@@ -28,5 +28,9 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ## Approach (Data acquisition)
 
-<img style="border: 1px solid grey" src="images/4.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/> <br />
+<img style="border: 1px solid grey" src="images/4.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/> 
+<br />
+<br />
+
+<img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/> <br />
 
