@@ -36,7 +36,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <br />
 <br />
 
-## Approach (Architecture)
+## Approach (Architecture ResNet-34 fused with UNet decoder)
 
 <img style="border: 1px solid grey" src="images/my_resnet.jpg" alt="image segmentation vs semantic segmentation" width="600" height="800"/>
 <br />
