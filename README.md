@@ -38,6 +38,6 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ## Approach (Architecture)
 
-<img style="border: 1px solid grey" src="images/my_resnet.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/>
+<img style="border: 1px solid grey" src="images/my_resnet.jpg" alt="image segmentation vs semantic segmentation" width="600" height="500"/>
 <br />
 <br />
