@@ -32,6 +32,8 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <br />
 <br />
 
+### List of labels to work with
+
 <img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/> 
 <br />
 <br />
@@ -44,6 +46,8 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ## Experiments and Results
 
+### ResNet-34 vs ResNet-50 vs ResNet-101
+
 <img style="border: 1px solid grey" src="images/6.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
 <br />
 
@@ -51,12 +55,16 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/8.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
 <br />
 
+### ResNet-34 on testset
+
 <img style="border: 1px solid grey" src="images/9.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/10.png" alt="image segmentation vs semantic segmentation" width="700" height="700"/>
 <img style="border: 1px solid grey" src="images/11.png" alt="image segmentation vs semantic segmentation" width="700" height="700"/>
 <br />
+
+### RGB-D vs RGB segmentation
 
 <img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
@@ -69,7 +77,9 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <br />
 
 
-### Reproducing FuseNet approach on ResNet-34 fused with UNet decoder
+## Reproducing FuseNet approach on ResNet-34 fused with UNet decoder
+
+### Early Fusion vs Late Fusion
 
 <img style="border: 1px solid grey" src="renset_fusion.jpg" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
 <br />
@@ -82,11 +92,17 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/20.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
 <br />
 
+### Early Fusion (smaller model) vs Late Fusion
+
 <img style="border: 1px solid grey" src="images/21.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/22.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
 <br />
+
+
+### Early Fusion vs Late Fusion1 vs Late Fusion2
+
 
 <img style="border: 1px solid grey" src="images/23.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
