@@ -124,7 +124,9 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <br />
 
 
-### Swapping encoders and decoders of both architectures
+## Swapping encoders and decoders of both architectures
+
+### DPDB-UNet vs Res-DDNet
 
 
 <img style="border: 1px solid grey" src="images/35.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
@@ -135,3 +137,32 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/38.png" alt="image segmentation vs semantic segmentation" width="900" height="400"/>
 <img style="border: 1px solid grey" src="images/39.png" alt="image segmentation vs semantic segmentation" width="900" height="400"/>
 <br />
+<br />
+
+
+## DPDB-UNet variations
+
+### Results
+
+
+
+<img style="border: 1px solid grey" src="images/40.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/41.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<img style="border: 1px solid grey" src="images/42.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<img style="border: 1px solid grey" src="images/43.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<img style="border: 1px solid grey" src="images/44.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<br />
+<br />
+
+## Conclusions
+
+1.  Proposed architecture model learns good quality feature representation
+2.  Depth can deliver performance hike
+3.  Late fusion is counter-productive
+4.  On Berlin set, ResNet-34 performs better than DDNet
+
+
+
+
