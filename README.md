@@ -41,3 +41,11 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/my_resnet.jpg" alt="image segmentation vs semantic segmentation" width="600" height="800"/>
 <br />
 <br />
+
+## Experiments and Results
+
+<img style="border: 1px solid grey" src="images/6.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/7.png" alt="image segmentation vs semantic segmentation" width="800" height="500"/>
+<img style="border: 1px solid grey" src="images/8.png" alt="image segmentation vs semantic segmentation" width="800" height="500"/>
