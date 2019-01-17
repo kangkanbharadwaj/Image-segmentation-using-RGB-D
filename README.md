@@ -25,7 +25,6 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 3.  Explore alternative approach to feed depth
 4.  Compare our model to state-of-the-art <br />
 <br />
-<br />
 
 ## Approach (Data acquisition)
 
