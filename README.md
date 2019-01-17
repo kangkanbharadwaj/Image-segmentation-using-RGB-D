@@ -23,7 +23,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 1.  Achieve quality segmentation using RGB-D
 2.  Comparison study of RGB-D to RGB segmentation
 3.  Explore alternative approach to feed depth
-4.  Compare our model to state-of-the-art
+4.  Compare our model to state-of-the-art  
 
 
 ## Approach (Data acquisition)
