@@ -111,6 +111,27 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/29.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
 <br />
 
+<img style="border: 1px solid grey" src="images/30.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<img style="border: 1px solid grey" src="images/31.png" alt="image segmentation vs semantic segmentation" width="900" height="200"/>
+<br />
+
+
+<img style="border: 1px solid grey" src="images/32.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
+<br />
+
 <img style="border: 1px solid grey" src="images/33.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
 <img style="border: 1px solid grey" src="images/34.png" alt="image segmentation vs semantic segmentation" width="900" height="200"/>
+<br />
+
+
+### Swapping encoders and decoders of both architectures
+
+
+<img style="border: 1px solid grey" src="images/35.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/36.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<img style="border: 1px solid grey" src="images/37.png" alt="image segmentation vs semantic segmentation" width="900" height="400"/>
+<img style="border: 1px solid grey" src="images/38.png" alt="image segmentation vs semantic segmentation" width="900" height="400"/>
+<img style="border: 1px solid grey" src="images/39.png" alt="image segmentation vs semantic segmentation" width="900" height="400"/>
 <br />
