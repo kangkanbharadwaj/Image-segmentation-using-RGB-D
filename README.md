@@ -34,7 +34,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### List of labels to work with
 
-<img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="700" height="500"/> 
+<img style="border: 1px solid grey" src="images/5.png" alt="image segmentation vs semantic segmentation" width="550" height="500"/> 
 <br />
 <br />
 
@@ -48,7 +48,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### ResNet-34 vs ResNet-50 vs ResNet-101
 
-<img style="border: 1px solid grey" src="images/6.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
+<img style="border: 1px solid grey" src="images/6.png" alt="image segmentation vs semantic segmentation" width="400" height="140"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/7.png" alt="image segmentation vs semantic segmentation" width="900" height="500"/>
@@ -57,7 +57,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### ResNet-34 on testset
 
-<img style="border: 1px solid grey" src="images/9.png" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
+<img style="border: 1px solid grey" src="images/9.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/10.png" alt="image segmentation vs semantic segmentation" width="700" height="700"/>
@@ -66,7 +66,7 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ### RGB-D vs RGB segmentation
 
-<img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
+<img style="border: 1px solid grey" src="images/12.png" alt="image segmentation vs semantic segmentation" width="550" height="600"/>
 <br />
 
 <img style="border: 1px solid grey" src="images/13.png" alt="image segmentation vs semantic segmentation" width="900" height="600"/>
@@ -79,10 +79,10 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 
 ## Reproducing FuseNet approach on ResNet-34 fused with UNet decoder
 
-### Early Fusion vs Late Fusion
-
 <img style="border: 1px solid grey" src="renset_fusion.jpg" alt="image segmentation vs semantic segmentation" width="600" height="400"/>
 <br />
+
+### Early Fusion vs Late Fusion
 
 <img style="border: 1px solid grey" src="images/17.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
