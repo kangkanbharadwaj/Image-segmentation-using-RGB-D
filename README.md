@@ -82,7 +82,6 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/20.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
 <br />
 
-
 <img style="border: 1px solid grey" src="images/21.png" alt="image segmentation vs semantic segmentation" width="600" height="600"/>
 <br />
 
@@ -96,4 +95,22 @@ This work addresses multi-class semantic segmentation of street scenes by explor
 <img style="border: 1px solid grey" src="images/25.png" alt="image segmentation vs semantic segmentation" width="900" height="500"/>
 <img style="border: 1px solid grey" src="images/26.png" alt="image segmentation vs semantic segmentation" width="900" height="350"/>
 <img style="border: 1px solid grey" src="images/27.png" alt="image segmentation vs semantic segmentation" width="900" height="450"/>
+<br />
+<br />
+
+## ResNet-34 vs DDNet
+
+### Incorporating dense connections in UNet decoder
+
+<img style="border: 1px solid grey" src="images/dense_decoder.jpg" alt="image segmentation vs semantic segmentation" width="450" height="500"/>
+<br />
+
+### Results
+
+
+<img style="border: 1px solid grey" src="images/29.png" alt="image segmentation vs semantic segmentation" width="400" height="120"/>
+<br />
+
+<img style="border: 1px solid grey" src="images/33.png" alt="image segmentation vs semantic segmentation" width="900" height="550"/>
+<img style="border: 1px solid grey" src="images/34.png" alt="image segmentation vs semantic segmentation" width="900" height="200"/>
 <br />
